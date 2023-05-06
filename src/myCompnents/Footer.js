@@ -18,12 +18,10 @@ export const Footer = () => {
                         <div className='col-sm 3'>
                             <h5 pl-3>Quick Links</h5>
                             <ul>
-                                <li><a href="#">10 Billion Tree Tsunami Program </a></li><br/>
-                                <li><a href="#">Environment Protection Department, Punjab</a></li><br/>
-                                <li><a href=""> Environmental Protection Agency, Balochistan</a> </li><br/>
-                                <li><a href="#">Environment Department, Khyber Pakhtunkhwa</a></li><br/>
-                                <li><a href="#">10 Billion Tree Tsunami Program</a> </li><br/>
-                                <li><a href="#">10 Billion Tree Tsunami Program</a> </li><br/>
+                                <li><a href="https://www.mocc.gov.pk/ProjectDetail/M2QzOWJmMjUtZTU3MC00NmFkLWE4YmMtZDFhMmRlOGU2NGRh">10 Billion Tree Tsunami Program </a></li><br/>
+                                <li><a href="https://epd.punjab.gov.pk/">Environment Protection Department, Punjab</a></li><br/>
+                                <li><a href="https://bepa.gob.pk/"> Environmental Protection Agency, Balochistan</a> </li><br/>
+                                <li><a href="https://epakp.gov.pk/">Environment Department, Khyber Pakhtunkhwa</a></li><br/>
                             </ul>
                         </div>
                         <div className='col-sm 3'>
