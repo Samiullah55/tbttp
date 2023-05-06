@@ -72,7 +72,6 @@ function Form() {
       });
       setForm({});
     }
-  };
   // setForm("");
   return (
     <div className="Form">
@@ -339,5 +338,5 @@ function Form() {
     </div>
   );
 }
-
+}
 export default Form;
