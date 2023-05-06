@@ -4,7 +4,7 @@ import './App.css';
 import Body from './myCompnents/Body';
 import { Footer } from './myCompnents/Footer';
 import About from './myCompnents/About';
-import Region from './myCompnents/Region';
+import Region from './myCompnents/Region.js';
 import Form from './myCompnents/Form.js';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 

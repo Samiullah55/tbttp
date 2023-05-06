@@ -3,7 +3,6 @@ import a from "../assets/1.jpg";
 import b from "../assets/2.jpg";
 import c from "../assets/3.jpg";
 import sec41 from "../assets/sec41.jpg";
-import sec42 from "../assets/sec42.jpg";
 import sec43 from "../assets/sec43.jpg";
 import sec44 from "../assets/sec44.jpg";
 import React from "react";
@@ -16,7 +15,7 @@ const Body = () => {
       <div className="d-none d-lg-block d-md-block">
         <div className="body">
           <div className="image">
-            <img src={img} />
+            <img src={img} alt="img"/>
             <div className="bgtext">
               <h2 className="welcome">WELCOME TO</h2>
               <h1 className="titlebody p-2 animated-bar">
@@ -47,13 +46,13 @@ const Body = () => {
             </div>
             <div className="container col-md-6">
               <div className="about col-md-4 mt-5">
-                <img src={b} />
+                <img src={b} alt="img"/>
               </div>
               <div className="about col-md-4">
-                <img src={c} />
+                <img src={c} alt="img"/>
               </div>
               <div className="about col-md-4 mt-3">
-                <img src={a} />
+                <img src={a} alt="img"/>
               </div>
             </div>
           </div>
@@ -90,7 +89,7 @@ const Body = () => {
             <p>Let's make Pakistan Green</p>
             <div className=" container subsec4">
               <div className="col-md-3" data-aos="fade-right">
-                <img className="imgs" src={sec41} />
+                <img className="imgs" src={sec41} alt="img"/>
                 <h3>
                   Enhancement of Forest
                   <br /> Cover
@@ -98,7 +97,7 @@ const Body = () => {
               </div>
 
               <div className="col-md-3">
-                <img className="imgs" src={sec44} />
+                <img className="imgs" src={sec44} alt="img"/>
                 <h3>
                   Biodiversity <br />
                   Conservation
@@ -106,7 +105,7 @@ const Body = () => {
               </div>
 
               <div className="col-md-3">
-                <img className="imgs" src={sec43} />
+                <img className="imgs" src={sec43} alt="img"/>
                 <h3>
                   Protected Areas <br />
                   Initiative
@@ -114,7 +113,7 @@ const Body = () => {
               </div>
 
               <div className="col-md-3">
-                <img className="imgs" src={sec44} />
+                <img className="imgs" src={sec44} alt="img"/>
                 <h3>
                   Zoological Survey of
                   <br /> Pakistan
