@@ -1,44 +1,37 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "aos": "^2.3.4",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-player": "^2.12.0",
-    "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.9",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "10billiontrees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "Sami Ullah",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "aws-sdk": "^2.1372.0",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "moongoose": "^0.0.5",
+    "multer": "^1.4.5-lts.1",
+    "react-file-base64": "^1.0.3",
+    "react-s3": "^1.3.1",
+    "react-toastify": "^9.1.2",
+    "serve-favicon": "^2.5.0",
+    "styled-components": "^5.3.10"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "proxy": "http://localhost:5000"
 }
