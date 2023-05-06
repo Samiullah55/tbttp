@@ -1,0 +1,27 @@
+* {
+    overflow-x: hidden;
+  }
+  
+  .button {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 50px;
+    min-width: 400px;
+    transform: translateX(110%);
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .button {
+      min-width: 90%;
+      transform: translateX(0);
+    }
+  }
