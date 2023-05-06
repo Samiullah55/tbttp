@@ -15,9 +15,9 @@ function App() {
       <Head/>
         <Routes>
           <Route path='/' element={<Body/>}/>
-          <Route path='/form' element={<Form/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/region' element={<Region/>}/>
+          <Route path='/Form' element={<Form/>}/>
+          <Route path='/About' element={<About/>}/>
+          <Route path='/Region' element={<Region/>}/>
         </Routes>
       </Router>
       <Footer/>

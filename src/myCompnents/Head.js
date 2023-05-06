@@ -47,18 +47,18 @@ const Head = () => {
                 </li>
 
                 <li className="nav-item navItems text">
-                  <a className="nav-link" href="/form">
+                  <a className="nav-link" href="/Form">
                     Form
                   </a>
                 </li>
 
                 <li className="nav-item navItems text">
-                  <a className="nav-link" href="/about">
+                  <a className="nav-link" href="/About">
                     About
                   </a>
                 </li>
                 <li className="nav-item navItems text">
-                  <a className="nav-link" href="/region">
+                  <a className="nav-link" href="/Region">
                     Regions
                   </a>
                 </li>
