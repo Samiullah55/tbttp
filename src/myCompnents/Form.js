@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import "../styles/Formm.css";
 
 // ...
@@ -64,14 +62,6 @@ function Form() {
     const data = await response.json();
     console.log(data);
     setForm({});
-    // Display toast notification upon successful form submission
-    if (response.ok) {
-      toast.success("Form submitted successfully!", {
-        position: toast.POSITION.TOP_CENTER,
-        autoClose: 3000,
-      });
-      setForm({});
-    }
   };
   // setForm("");
   return (

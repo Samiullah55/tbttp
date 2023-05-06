@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    #root, body {
+      font-family: sans-serif;
+      /* Additional responsive styles if needed */
+    }
+  }
+
+
+/* Default styles */
+#root, body {
+    font-family: sans-serif;
+  }
